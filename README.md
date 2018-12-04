@@ -1,3 +1,4 @@
 # pilkkufileet
 
-Kasa pieniä fileitä
+  - [Config](./config)
+    - [iTerm2](./config/iterm2)
