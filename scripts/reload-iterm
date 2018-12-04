@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -e
+
+if [[ $OSTYPE == "darwin"* ]]
+then
+  defaults read com.googlecode.iterm2
+else
+  echo "You should be running this on macOS"
+  exit 1
+fi
